@@ -27,7 +27,7 @@ namespace Multithread_synkron_øvelse_1
         {
             while (true)
             {
-                Monitor.Enter(_lock);
+                Monitor.Enter(_lock); 
 
                 try
                 {
